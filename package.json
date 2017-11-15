@@ -1,0 +1,22 @@
+{
+  "name": "project-generator",
+  "version": "0.1.0",
+  "description": "Basic project template generator",
+  "main": "index.js",
+  "author": "Flammenmensch <maleventum@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "inquirer": "^4.0.0",
+    "node-cmd": "^3.0.0"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "bin": {
+    "generate-project": "./index.js"
+  },
+  "repository": {
+    "git": "https://github.com/flammenmensch/project-generator.git"
+  }
+}
